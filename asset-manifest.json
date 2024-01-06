@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.8e44043e.css",
-    "main.js": "/Portfolio/static/js/main.2f4c8bb6.js",
+    "main.js": "/Portfolio/static/js/main.e0a749b6.js",
     "static/media/inventory.png": "/Portfolio/static/media/inventory.658b8a93cb96ba4c8a2c.png",
     "static/media/men.png": "/Portfolio/static/media/men.5ce754d880573457ee64.png",
     "static/media/iot.png": "/Portfolio/static/media/iot.8a231b5de4063d0a99eb.png",
@@ -13,10 +13,10 @@
     "static/media/js.png": "/Portfolio/static/media/js.69909680fac556253548.png",
     "index.html": "/Portfolio/index.html",
     "main.8e44043e.css.map": "/Portfolio/static/css/main.8e44043e.css.map",
-    "main.2f4c8bb6.js.map": "/Portfolio/static/js/main.2f4c8bb6.js.map"
+    "main.e0a749b6.js.map": "/Portfolio/static/js/main.e0a749b6.js.map"
   },
   "entrypoints": [
     "static/css/main.8e44043e.css",
-    "static/js/main.2f4c8bb6.js"
+    "static/js/main.e0a749b6.js"
   ]
 }
