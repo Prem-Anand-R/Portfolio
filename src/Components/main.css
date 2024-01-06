@@ -63,18 +63,18 @@
 /* home page */
 
  .men-images {
-	height: 300px;
-	width: 300px;
+	height: 250px;
+	width: 250px;
 	border-radius: 50%;
 	position: absolute;
 	top: 25px; 
-	left: 25px;
+	left: 23px;
 }
 
 .inner_circle{
 	position: relative;
-	width: 350px;
-	height: 350px;
+	width: 300px;
+	height: 300px;
 	border-radius: 100%;
 	background: linear-gradient(rgba(255, 255, 255, 0.7));
 	border: 2px solid rgb(194, 193, 193);
