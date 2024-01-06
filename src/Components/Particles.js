@@ -13,9 +13,6 @@ const Particles = () => {
     });
   }, []);
 
-  const particlesLoaded = (container) => {
-    console.log(container);
-  };
 
   if (!init) {
     

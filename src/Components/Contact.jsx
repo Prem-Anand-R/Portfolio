@@ -3,71 +3,82 @@ import "../Components/contact.css"
 function Contact() {
   return (
     <div>
-<section id="contact ">
-  
-  <h1 className="section-header">Contact</h1>
-  
-  <div className="contact-wrapper row">
-  
-    
-    <form id="contact-form" className="form-horizontal col-lg-6 col-sm-12" role="form">
-       
-      <div className="form-group">
-        <div className="col-sm-12">
-          <input type="text" className="form-control" id="name" placeholder="NAME" name="name"  required/>
+      <section className="contact-page-sec">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-6">
+              <div className="contact-info">
+                <div className="contact-info-item">
+                  <div className="contact-info-icon">
+                    <i className="fas fa-map-marked"></i>
+                  </div>
+                  <div className="contact-info-text">
+                    <h2>address</h2>
+                    <span>Erode </span>
+                    <span>TAMIL NADU, INDIA</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-6">
+              <div className="contact-info">
+                <div className="contact-info-item">
+                  <div className="contact-info-icon">
+                    <i className="fas fa-envelope"></i>
+                  </div>
+                  <div className="contact-info-text">
+                    <h2>E-mail</h2>
+                    <span>premanand484@gmail.com</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div className="row">
+            <div className="col-md-12">
+              <div className="contact-page-form" method="post">
+                <h2 className='text-light'>Get in Touch</h2>
+                <form action="contact-mail.php" method="post">
+                  <div className="row">
+                    <div className="col-md-6 col-sm-6 col-xs-12">
+                      <div className="single-input-field">
+                        <input type="text" placeholder="Your Name" name="name" />
+                      </div>
+                    </div>
+                    <div className="col-md-6 col-sm-6 col-xs-12">
+                      <div className="single-input-field">
+                        <input type="email" placeholder="E-mail" name="email" required />
+                      </div>
+                    </div>
+                    <div className="col-md-6 col-sm-6 col-xs-12">
+                      <div className="single-input-field">
+                        <input type="text" placeholder="Phone Number" name="phone" />
+                      </div>
+                    </div>
+                    <div className="col-md-6 col-sm-6 col-xs-12">
+                      <div className="single-input-field">
+                        <input type="text" placeholder="Subject" name="subject" />
+                      </div>
+                    </div>
+                    <div className="col-md-12 message-input">
+                      <div className="single-input-field">
+                        <textarea placeholder="Write Your Message" name="message"></textarea>
+                      </div>
+                    </div>
+                    <div className="single-input-fieldsbtn">
+                      <input type="submit" value="Send Now" />
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+           
+          </div>
         </div>
-      </div>
+      </section>
 
-      <div className="form-group">
-        <div className="col-sm-12">
-          <input type="email" className="form-control" id="email" placeholder="EMAIL" name="email"  required />
-        </div>
-      </div>
 
-      <textarea className="form-control" rows="10" placeholder="MESSAGE" name="message" required></textarea>
-      
-      <button className="btn btn-primary send-button" id="submit" type="submit" value="SEND">
-        <div className="alt-send-button">
-          <i className="fa fa-paper-plane"></i><span className="send-text">SEND</span>
-        </div>
-      
-      </button>
-      
-    </form>
-    
-      <div className="direct-contact-container mx-5 col-lg-4 col-sm-12">
-
-        <ul className="contact-list">
-          <li className="list-item"><i className="fa fa-map-marker fa-2x"><span className="contact-text place">Erode</span></i></li>
-          
-          <li className="list-item"><i className="fa fa-phone fa-2x"><span className="contact-text phone"><a href="tel:1-212-555-5555" title="Give me a call">(91) 78100 43547</a></span></i></li>
-          
-          <li className="list-item"><i className="fa fa-envelope fa-2x"><span className="contact-text gmail"><a href="mailto:#" title="Send me an email">premanand484@gmail.com</a></span></i></li>
-          
-        </ul>
-
-        <hr/>
-        <ul className="social-media-list">
-          <li><a href="#" target="_blank" className="contact-icon">
-          <i className="fa-brands fa-github"></i></a>
-          </li>
-          <li><a href="#" target="_blank" className="contact-icon">
-            <i className="fa-brands fa-x-twitter"></i></a>
-          </li>
-          <li><a href="#" target="_blank" className="contact-icon">
-          <i className="fa-brands fa-instagram"></i></a>
-          </li>
-                
-        </ul>
-        <hr/>
-
-      </div>
-    
-  </div>
-  
-</section>  
-  
-  
     </div>
   )
 }
