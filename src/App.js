@@ -21,7 +21,7 @@ function App() {
 
   return (
     <div>
-      <BrowserRouter>
+      <BrowserRouter basename='Portfolio'>
         <>
         
           {showWelcome &&
@@ -37,7 +37,7 @@ function App() {
                    <Particles />
               <Navbar />
               <Routes>
-              {/* <Route path="/Home" element={<Home />} /> */}
+              <Route path="/" element={<Home />} />
               <Route path="/Home" element={<Home />} />
               <Route path="/About" element={<About />} />
               <Route path="/Skills" element={<Skills />} />
