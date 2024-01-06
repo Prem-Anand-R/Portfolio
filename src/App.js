@@ -27,7 +27,7 @@ function App() {
           {showWelcome &&
            
            <>
-           <Animation/>
+           <Animation/> 
            </>
            
           }         
