@@ -4,7 +4,7 @@ import Navbar from './Components/Navbar';
 import Home from './Components/Home';
 import About from './Components/About';
 import Skills from './Components/Skills';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 import Project from './Components/Project';
 import Contact from './Components/Contact';
 import Animation from './Components/Animation';
@@ -21,7 +21,7 @@ function App() {
 
   return (
     <div>
-      <BrowserRouter basename='Portfolio'>
+      <HashRouter basename='Portfolio'>
         <>
         
           {showWelcome &&
@@ -48,7 +48,7 @@ function App() {
            
           )}
         </>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
