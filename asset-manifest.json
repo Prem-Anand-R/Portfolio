@@ -1,22 +1,23 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.e353f961.css",
-    "main.js": "/Portfolio/static/js/main.5ea72805.js",
+    "main.js": "/Portfolio/static/js/main.bcc37428.js",
     "static/media/inventory.png": "/Portfolio/static/media/inventory.658b8a93cb96ba4c8a2c.png",
     "static/media/men.png": "/Portfolio/static/media/men.5ce754d880573457ee64.png",
     "static/media/iot.png": "/Portfolio/static/media/iot.8a231b5de4063d0a99eb.png",
     "static/media/12.png": "/Portfolio/static/media/12.1e049d2a67b634cfe88a.png",
     "static/media/bootstrap.png": "/Portfolio/static/media/bootstrap.57a98cdce4cc664b8168.png",
     "static/media/nodejs-1-logo-png-transparent.png": "/Portfolio/static/media/nodejs-1-logo-png-transparent.d980d9636ace07ad3dde.png",
+    "static/media/Prem_Anand.pdf": "/Portfolio/static/media/Prem_Anand.908249c9437cc0e4f99e.pdf",
     "static/media/css.png": "/Portfolio/static/media/css.e7eabf82c59724922080.png",
     "static/media/1174949_js_react js_logo_react_react native_icon.png": "/Portfolio/static/media/1174949_js_react js_logo_react_react native_icon.e71f4c5b0c4306d65355.png",
     "static/media/js.png": "/Portfolio/static/media/js.69909680fac556253548.png",
     "index.html": "/Portfolio/index.html",
     "main.e353f961.css.map": "/Portfolio/static/css/main.e353f961.css.map",
-    "main.5ea72805.js.map": "/Portfolio/static/js/main.5ea72805.js.map"
+    "main.bcc37428.js.map": "/Portfolio/static/js/main.bcc37428.js.map"
   },
   "entrypoints": [
     "static/css/main.e353f961.css",
-    "static/js/main.5ea72805.js"
+    "static/js/main.bcc37428.js"
   ]
 }
